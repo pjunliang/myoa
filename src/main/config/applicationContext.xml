@@ -35,4 +35,12 @@
         <aop:pointcut id="pt" expression="execution(* com.yueqian.service.*.*(..))"/>
         <aop:advisor advice-ref="transactionInterceptor" pointcut-ref="pt"></aop:advisor>
     </aop:config>
+
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="configLocation" value="classpath:mybatis-config.xml"></property>
+    </bean>
+    <import resource="classpath:applicationContext-shiro.xml"/>
+    <import resource="classpath:springmvc.xml"/>
+    <import resource="classpath:activiti-context.xml"/>
 </beans>
