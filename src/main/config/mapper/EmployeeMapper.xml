@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yueqian.mapper.EmployeeMapper">
+
+    <select id="getEmployeeByEname" parameterType="String" resultType="com.yueqian.pojo.Employee">
+        select * from employee where name = '${name}'
+
+    </select>
+</mapper>

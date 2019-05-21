@@ -5,6 +5,19 @@ public class Employee {
 
     private String name;
 
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", password='" + password + '\'' +
+                ", email='" + email + '\'' +
+                ", role=" + role +
+                ", managerId=" + managerId +
+                ", salt='" + salt + '\'' +
+                '}';
+    }
+
     private String password;
 
     private String email;

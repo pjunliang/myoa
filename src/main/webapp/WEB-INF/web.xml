@@ -46,7 +46,7 @@
         </init-param>
         <init-param>
             <param-name>targetBeanName</param-name>
-            <param-value>shirFilter</param-value>
+            <param-value>shiroFilter</param-value>
         </init-param>
     </filter>
     <filter-mapping>
