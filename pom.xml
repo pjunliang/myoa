@@ -35,7 +35,6 @@
     <dependencies>
 
 
-
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -234,12 +233,24 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
             <version>${slf4j.version}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>slf4j-api</artifactId>
+                    <groupId>org.slf4j</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>jcl-over-slf4j</artifactId>
             <version>${slf4j.version}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>slf4j-api</artifactId>
+                    <groupId>org.slf4j</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <!-- servlet-api 相关依赖开始 -->
@@ -257,12 +268,12 @@
             <scope>provided</scope>
         </dependency>
 
+
         <dependency>
-            <groupId>javax.servlet</groupId>
+            <groupId>jstl</groupId>
             <artifactId>jstl</artifactId>
             <version>1.2</version>
         </dependency>
-
         <dependency>
             <groupId>taglibs</groupId>
             <artifactId>standard</artifactId>
@@ -307,7 +318,6 @@
             <version>1.2.2</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/com.alibaba/druid -->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
@@ -317,7 +327,7 @@
         <!--shiro框架包-->
         <dependency>
             <groupId>org.apache.shiro</groupId>
-            <artifactId>shiro-all</artifactId>
+            <artifactId>shiro-core</artifactId>
             <version>1.2.3</version>
             <exclusions>
                 <exclusion>
@@ -330,7 +340,165 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-web</artifactId>
+            <version>1.2.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-spring</artifactId>
+            <version>1.2.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-quartz</artifactId>
+            <version>1.2.3</version>
+        </dependency>
 
+        <!-- 日志 -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.21</version>
+        </dependency>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.7.12</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>slf4j-api</artifactId>
+                    <groupId>org.slf4j</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!--activit框架包-->
+        <dependency>
+            <groupId>org.activiti</groupId>
+            <artifactId>activiti-engine</artifactId>
+            <version>6.0.0</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>jackson-core</artifactId>
+                    <groupId>com.fasterxml.jackson.core</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>jackson-databind</artifactId>
+                    <groupId>com.fasterxml.jackson.core</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>activation</artifactId>
+                    <groupId>javax.activation</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>commons-lang3</artifactId>
+                    <groupId>org.apache.commons</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>mybatis</artifactId>
+                    <groupId>org.mybatis</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>jcl-over-slf4j</artifactId>
+                    <groupId>org.slf4j</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>slf4j-api</artifactId>
+                    <groupId>org.slf4j</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>spring-beans</artifactId>
+                    <groupId>org.springframework</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.activiti</groupId>
+            <artifactId>activiti-spring</artifactId>
+            <version>6.0.0</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>commons-dbcp</artifactId>
+                    <groupId>commons-dbcp</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>spring-context</artifactId>
+                    <groupId>org.springframework</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>spring-core</artifactId>
+                    <groupId>org.springframework</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>spring-jdbc</artifactId>
+                    <groupId>org.springframework</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>spring-tx</artifactId>
+                    <groupId>org.springframework</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>commons-lang3</artifactId>
+                    <groupId>org.apache.commons</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>jcl-over-slf4j</artifactId>
+                    <groupId>org.slf4j</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>slf4j-api</artifactId>
+                    <groupId>org.slf4j</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>spring-beans</artifactId>
+                    <groupId>org.springframework</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <!-- &lt;!&ndash;排除冲突&ndash;&gt;
+         <dependency>
+             <groupid>org.activiti</groupid>
+             <artifactid>activiti-spring-boot-starter-basic</artifactid>
+             <version>6.0.0</version>
+             <exclusions>
+                 &lt;!&ndash; 排除juel-spi，会和tomcat下的servlet、jsp等jar有冲突 &ndash;&gt;
+                 <exclusion>
+                     <groupid>de.odysseus.juel</groupid>
+                     <artifactid>juel-spi</artifactid>
+                 </exclusion>
+                 <exclusion>
+                     <artifactid>spring-tx</artifactid>
+                     <groupid>org.springframework</groupid>
+                 </exclusion>
+                 <exclusion>
+                     <artifactid>spring-jdbc</artifactid>
+                     <groupid>org.springframework</groupid>
+                 </exclusion>
+                 <exclusion>
+                     <artifactid>spring-core</artifactid>
+                     <groupid>org.springframework</groupid>
+                 </exclusion>
+                 <exclusion>
+                     <artifactid>spring-context</artifactid>
+                     <groupid>org.springframework</groupid>
+                 </exclusion>
+                 <exclusion>
+                     <artifactid>slf4j-api</artifactid>
+                     <groupid>org.slf4j</groupid>
+                 </exclusion>
+                 <exclusion>
+                     <artifactid>jcl-over-slf4j</artifactid>
+                     <groupid>org.slf4j</groupid>
+                 </exclusion>
+             </exclusions>
+         </dependency>-->
     </dependencies>
 
     <build>

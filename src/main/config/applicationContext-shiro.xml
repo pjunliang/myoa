@@ -16,7 +16,7 @@
 	<bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
 		<property name="realm" ref="customRealm"/>
 	</bean>
-    <bean id="customRealm" class="com.yueqian.realm.CustomRealm">
+    <bean id="customRealm" class="com.yueqian.shiro.CustomRealm">
         <property name="credentialsMatcher" ref="credentialsMatcher"/>
     </bean>
     <bean id="credentialsMatcher" class="org.apache.shiro.authc.credential.HashedCredentialsMatcher">
@@ -26,8 +26,13 @@
     <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
         <property name="securityManager" ref="securityManager"/>
         <property name="loginUrl" value="/login"/>
-        <property name="successUrl" value="/index.jsp"/>
+        <property name="successUrl" value="/index"/>
         <property name="unauthorizedUrl" value="/refuse.html"/>
+        <property name="filters">
+            <map>
+                <entry key="authc" value-ref="formAuthenFilter"/>
+            </map>
+        </property>
         <property name="filterChainDefinitions">
             <value>
                 /bootstrap/**=anon
@@ -47,4 +52,10 @@
             </value>
         </property>
     </bean>
+    <bean id="formAuthenFilter" class="com.yueqian.shiro.FormAuthenFilter">
+        <property name="usernameParam" value="username"/>
+        <property name="passwordParam" value="password"/>
+    </bean>
+
+
 </beans>

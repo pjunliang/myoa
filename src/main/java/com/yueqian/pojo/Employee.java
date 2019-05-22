@@ -5,19 +5,6 @@ public class Employee {
 
     private String name;
 
-    @Override
-    public String toString() {
-        return "Employee{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", password='" + password + '\'' +
-                ", email='" + email + '\'' +
-                ", role=" + role +
-                ", managerId=" + managerId +
-                ", salt='" + salt + '\'' +
-                '}';
-    }
-
     private String password;
 
     private String email;
@@ -41,7 +28,7 @@ public class Employee {
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.name = name == null ? null : name.trim();
     }
 
     public String getPassword() {
@@ -49,7 +36,7 @@ public class Employee {
     }
 
     public void setPassword(String password) {
-        this.password = password;
+        this.password = password == null ? null : password.trim();
     }
 
     public String getEmail() {
@@ -57,7 +44,7 @@ public class Employee {
     }
 
     public void setEmail(String email) {
-        this.email = email;
+        this.email = email == null ? null : email.trim();
     }
 
     public Integer getRole() {
@@ -81,6 +68,6 @@ public class Employee {
     }
 
     public void setSalt(String salt) {
-        this.salt = salt;
+        this.salt = salt == null ? null : salt.trim();
     }
 }
