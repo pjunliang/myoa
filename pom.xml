@@ -462,43 +462,6 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <!-- &lt;!&ndash;排除冲突&ndash;&gt;
-         <dependency>
-             <groupid>org.activiti</groupid>
-             <artifactid>activiti-spring-boot-starter-basic</artifactid>
-             <version>6.0.0</version>
-             <exclusions>
-                 &lt;!&ndash; 排除juel-spi，会和tomcat下的servlet、jsp等jar有冲突 &ndash;&gt;
-                 <exclusion>
-                     <groupid>de.odysseus.juel</groupid>
-                     <artifactid>juel-spi</artifactid>
-                 </exclusion>
-                 <exclusion>
-                     <artifactid>spring-tx</artifactid>
-                     <groupid>org.springframework</groupid>
-                 </exclusion>
-                 <exclusion>
-                     <artifactid>spring-jdbc</artifactid>
-                     <groupid>org.springframework</groupid>
-                 </exclusion>
-                 <exclusion>
-                     <artifactid>spring-core</artifactid>
-                     <groupid>org.springframework</groupid>
-                 </exclusion>
-                 <exclusion>
-                     <artifactid>spring-context</artifactid>
-                     <groupid>org.springframework</groupid>
-                 </exclusion>
-                 <exclusion>
-                     <artifactid>slf4j-api</artifactid>
-                     <groupid>org.slf4j</groupid>
-                 </exclusion>
-                 <exclusion>
-                     <artifactid>jcl-over-slf4j</artifactid>
-                     <groupid>org.slf4j</groupid>
-                 </exclusion>
-             </exclusions>
-         </dependency>-->
     </dependencies>
 
     <build>

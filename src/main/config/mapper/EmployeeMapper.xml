@@ -243,6 +243,6 @@
     where id = #{id,jdbcType=BIGINT}
   </update>
     <select id="getEmployeeByEname"  parameterType="String" resultType="com.yueqian.pojo.Employee">
-        select * from employee where name = '${name}'
+        select * from employee where name = #{name}
     </select>
 </mapper>

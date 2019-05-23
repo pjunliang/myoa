@@ -7,55 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8a1e60e-3b46-4639-adef-d7549e30026a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/config/mapper/BaoxiaoBillMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/config/mapper/SysPermissionCustomMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/config/mapper/SysPermissionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/config/mapper/SysPermissionMapperCustom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/config/mapper/SysRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/config/mapper/SysRolePermissionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/config/mapper/SysUserRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/mapper/BaoxiaoBillMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/mapper/SysPermissionCustomMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/mapper/SysPermissionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/mapper/SysPermissionMapperCustom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/mapper/SysRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/mapper/SysRolePermissionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/mapper/SysUserRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/pojo/ActiveUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/pojo/BaoxiaoBill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/pojo/BaoxiaoBillExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/pojo/EmployeeCustom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/pojo/EmployeeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/pojo/MenuTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/pojo/SysPermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/pojo/SysPermissionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/pojo/SysRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/pojo/SysRoleExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/pojo/SysRolePermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/pojo/SysRolePermissionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/pojo/SysUserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/pojo/SysUserRoleExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/pojo/TreeMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/shiro/FormAuthenFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/myoaidea_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/myoaidea_Web_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/httpcore_4_4_10.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/service/BaoxiaoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/service/SysService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/service/WorkFlowService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/service/impl/BaoxiaoServcieImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/service/impl/SysServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/utils/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/utils/ManagerTaskHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resouces/workflow/baoxiaoprocess.bpmn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resouces/workflow/baoxiaoprocess.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/config/activiti-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/config/activiti-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/config/applicationContext-shiro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/config/applicationContext-shiro.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/config/mapper/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/config/mapper/EmployeeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/config/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/config/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yueqian/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yueqian/mapper/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/mapper/EmployeeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yueqian/pojo/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/pojo/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yueqian/realm/CustomRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/shiro/CustomRealm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/com/yueqian/service/EmployeeServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/com/yueqian/service/EmployeeServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Mindex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/mindex.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yueqian/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yueqian/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yueqian/shiro/CustomRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yueqian/shiro/CustomRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -71,37 +39,20 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/mapper/EmployeeMapper.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="62">
+              <caret line="491" column="12" lean-forward="true" selection-start-line="491" selection-start-column="12" selection-end-line="491" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/service/impl/EmployeeServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/config/applicationContext-shiro.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/shiro/CustomRealm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="30" column="58" lean-forward="true" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -109,17 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/service/EmployeeService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/mapper/SysRoleMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="240">
+              <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,10 +70,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/mapper/SysRolePermissionMapper.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/service/SysService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="149">
+              <caret line="35" column="46" lean-forward="true" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,43 +82,60 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/mapper/SysUserRoleMapper.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/service/impl/SysServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="208">
+              <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/config/mapper/EmployeeMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="244" column="97" selection-start-line="244" selection-start-column="97" selection-end-line="244" selection-end-column="97" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1159#1160#0" expanded="true" />
+                <element signature="e#1212#1213#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/test/com/yueqian/service/EmployeeServiceTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/shiro/CustomRealm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+            <state relative-caret-position="120">
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/mapper/SysPermissionMapperCustom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/mapper/SysPermissionMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/mapper/SysPermissionCustomMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -216,6 +175,8 @@
       <find>jstl</find>
       <find>activi</find>
       <find>selectByPrimaryKey</find>
+      <find>activiti.engine</find>
+      <find>activiti</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -232,14 +193,12 @@
         <option value="$PROJECT_DIR$/src/main/config/EmployeeMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/yueqian/pojo/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/config/springmvc.xml" />
-        <option value="$PROJECT_DIR$/src/main/config/activiti-context.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/config/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/yueqian/realm/CustomRealm.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yueqian/shiro/FormFilter.java" />
         <option value="$PROJECT_DIR$/src/main/config/applicationContext-shiro.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/yueqian/shiro/FormAuthenFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yueqian/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yueqian/mapper/BaoxiaoBillMapper.java" />
@@ -256,18 +215,30 @@
         <option value="$PROJECT_DIR$/src/main/java/com/yueqian/mapper/SysRolePermissionMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yueqian/mapper/SysRoleMapper.java" />
         <option value="$PROJECT_DIR$/src/main/config/mapper/SysPermissionMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/config/mapper/EmployeeMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/yueqian/mapper/EmployeeMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/test/com/yueqian/service/EmployeeServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yueqian/service/sysService.java" />
+        <option value="$PROJECT_DIR$/src/main/config/mapper/EmployeeMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yueqian/service/SysService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yueqian/service/WorkFlowService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yueqian/service/BaoxiaoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yueqian/service/EmployeeService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yueqian/service/impl/EmployeeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yueqian/service/impl/BaoxiaoServcieImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yueqian/service/impl/SysServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/config/activiti-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yueqian/utils/Constants.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yueqian/service/impl/WorkFlowServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yueqian/utils/ManagerTaskHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yueqian/shiro/CustomRealm.java" />
-        <option value="$PROJECT_DIR$/src/main/test/com/yueqian/service/EmployeeServiceTest.java" />
       </list>
     </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_WARNINGS" value="true" />
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
@@ -314,7 +285,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -339,14 +309,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myoaidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myoaidea" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myoaidea" type="b2602c69:ProjectViewProjectNode" />
@@ -414,6 +376,30 @@
               <item name="myoaidea" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yueqian" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myoaidea" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myoaidea" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resouces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myoaidea" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myoaidea" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resouces" type="462c0819:PsiDirectoryNode" />
+              <item name="workflow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myoaidea" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myoaidea" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -431,19 +417,12 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="myoaidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myoaidea" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -453,7 +432,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/config/mapper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/yueqian" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -465,20 +444,20 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.yueqian.service" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\IDEWorkSpace\myoaidea\src\main\config\mapper" />
-      <recent name="C:\IDEWorkSpace\myoaidea\src\main\java\com\yueqian\mapper" />
-      <recent name="C:\IDEWorkSpace\myoaidea\src\main\java\com\yueqian\pojo" />
-      <recent name="C:\IDEWorkSpace\myoa\src\main\java\com\yueqian\mapper" />
-      <recent name="C:\IDEWorkSpace\myoa\src\main\java\com\yueqian\pojo" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\IDEWorkSpace\myoaidea\src\main\config\mapper" />
       <recent name="C:\IDEWorkSpace\myoaidea\src\main\config" />
       <recent name="C:\IDEWorkSpace\myoaidea\src\main\java\com\yueqian\mapper" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IDEWorkSpace\myoaidea\src\main\java\com\yueqian" />
+      <recent name="C:\IDEWorkSpace\myoaidea\src\main\resouces" />
+      <recent name="C:\IDEWorkSpace\myoaidea\src\main\java\com\yueqian\service\impl" />
+      <recent name="C:\IDEWorkSpace\myoaidea\src\main\java\com\yueqian\service" />
+      <recent name="C:\IDEWorkSpace\myoaidea\src\main\config\mapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -531,7 +510,7 @@
       <deployment>
         <artifact name="myoaidea:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/myoaidea" />
+            <option name="CONTEXT_PATH" value="/myoa" />
           </settings>
         </artifact>
       </deployment>
@@ -672,8 +651,8 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.EmployeeServiceTest.test1" />
-      <item itemvalue="Tomcat Server.Tomcat 7.0.52" />
       <item itemvalue="JUnit.EmployeeServiceTest.test2" />
+      <item itemvalue="Tomcat Server.Tomcat 7.0.52" />
     </list>
     <recent_temporary>
       <list>
@@ -698,7 +677,10 @@
       <workItem from="1558409153247" duration="143000" />
       <workItem from="1558421240464" duration="17112000" />
       <workItem from="1558485555317" duration="3697000" />
-      <workItem from="1558489318154" duration="14943000" />
+      <workItem from="1558489318154" duration="17936000" />
+      <workItem from="1558521877832" duration="1234000" />
+      <workItem from="1558573416757" duration="5116000" />
+      <workItem from="1558578574785" duration="3025000" />
     </task>
     <task id="LOCAL-00001" summary="完成框架的基本搭建">
       <created>1558343238279</created>
@@ -714,28 +696,17 @@
       <option name="project" value="LOCAL" />
       <updated>1558427221407</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="登陆构建完成">
+      <created>1558512183895</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558512183895</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EmployeeServiceTest_test2 - 2019.05.22 at 10h 52m 27s.xml">
-      <configuration name="EmployeeServiceTest.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EmployeeServiceTest_test1 - 2019.05.22 at 15h 32m 00s.xml">
-      <configuration name="EmployeeServiceTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EmployeeServiceTest_test1 - 2019.05.22 at 15h 33m 36s.xml">
-      <configuration name="EmployeeServiceTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EmployeeServiceTest_test1 - 2019.05.22 at 15h 35m 41s.xml">
-      <configuration name="EmployeeServiceTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EmployeeServiceTest_test1 - 2019.05.22 at 15h 39m 56s.xml">
-      <configuration name="EmployeeServiceTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EmployeeServiceTest_test1 - 2019.05.22 at 15h 40m 30s.xml">
-      <configuration name="EmployeeServiceTest.test1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EmployeeServiceTest_test1 - 2019.05.22 at 15h 45m 55s.xml">
       <configuration name="EmployeeServiceTest.test1" configurationId="JUnit" />
     </history-entry>
@@ -748,15 +719,42 @@
     <history-entry file="EmployeeServiceTest_test1 - 2019.05.22 at 15h 49m 17s.xml">
       <configuration name="EmployeeServiceTest.test1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="EmployeeServiceTest_test1 - 2019.05.22 at 15h 59m 45s.xml">
+      <configuration name="EmployeeServiceTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeServiceTest_test1 - 2019.05.23 at 09h 20m 11s.xml">
+      <configuration name="EmployeeServiceTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeServiceTest_test1 - 2019.05.23 at 09h 20m 42s.xml">
+      <configuration name="EmployeeServiceTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeServiceTest_test1 - 2019.05.23 at 09h 22m 03s.xml">
+      <configuration name="EmployeeServiceTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeServiceTest_test1 - 2019.05.23 at 09h 22m 32s.xml">
+      <configuration name="EmployeeServiceTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeServiceTest_test1 - 2019.05.23 at 09h 28m 14s.xml">
+      <configuration name="EmployeeServiceTest.test1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51552000" />
+    <option name="totallyTimeSpent" value="63920000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28120977" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23680824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -764,24 +762,25 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" weight="0.3211382" />
-      <window_info anchor="bottom" id="CheckStyle" weight="0.3292683" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498713" visible="true" weight="0.23848239" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4980695" visible="true" weight="0.11788618" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3292683" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.501287" side_tool="true" weight="0.42818427" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.5243902" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5019305" side_tool="true" weight="0.73170733" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.5230352" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="16" weight="0.3211382" />
+      <window_info anchor="bottom" id="CheckStyle" order="17" weight="0.3292683" />
+      <window_info anchor="right" id="BPMNPalette" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24967825" />
@@ -840,179 +839,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="完成框架的基本搭建" />
     <MESSAGE value="完成测试的搭建" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成测试的搭建" />
+    <MESSAGE value="登陆构建完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="登陆构建完成" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$MAVEN_REPOSITORY$/net/sf/json-lib/json-lib/2.4/json-lib-2.4.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="166" column="21" selection-start-line="166" selection-start-column="21" selection-end-line="166" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2-sources.jar!/org/mybatis/spring/mapper/MapperScannerConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="128" column="50" lean-forward="true" selection-start-line="128" selection-start-column="50" selection-end-line="128" selection-end-column="50" />
-          <folding>
-            <element signature="e#5766#5767#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/impl/cfg/ProcessEngineConfigurationImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="2018" column="16" selection-start-line="2018" selection-start-column="16" selection-end-line="2018" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/config/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/config/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/userlist.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/mindex.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.3.12.RELEASE/spring-tx-4.3.12.RELEASE-sources.jar!/org/springframework/transaction/annotation/TransactionManagementConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/com.yueqian:myoa:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.yueqian:myoa:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">com.yueqian:myoa:1.0-SNAPSHOT</node>
-            <node x="" y="">junit:junit:jar:4.12</node>
-            <node x="" y="">org.springframework:spring-test:jar:4.3.12.RELEASE</node>
-            <node x="" y="">org.hamcrest:hamcrest-core:jar:2.1</node>
-            <node x="" y="">org.hamcrest:hamcrest-core:jar:2.1/org.hamcrest:hamcrest:jar:2.1</node>
-            <node x="" y="">org.springframework:spring-context:jar:4.3.12.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:4.3.12.RELEASE/org.springframework:spring-expression:jar:4.3.12.RELEASE</node>
-            <node x="" y="">org.springframework:spring-core:jar:4.3.12.RELEASE</node>
-            <node x="" y="">org.springframework:spring-core:jar:4.3.12.RELEASE/commons-logging:commons-logging:jar:1.2</node>
-            <node x="" y="">org.springframework:spring-web:jar:4.3.12.RELEASE</node>
-            <node x="" y="">org.springframework:spring-webmvc:jar:4.3.12.RELEASE</node>
-            <node x="" y="">org.springframework:spring-beans:jar:4.3.12.RELEASE</node>
-            <node x="" y="">org.springframework:spring-jdbc:jar:4.3.12.RELEASE</node>
-            <node x="" y="">org.springframework:spring-tx:jar:4.3.12.RELEASE</node>
-            <node x="" y="">org.aspectj:aspectjrt:jar:1.8.13</node>
-            <node x="" y="">org.aspectj:aspectjweaver:jar:1.8.13</node>
-            <node x="" y="">org.aspectj:aspectjtools:jar:1.8.13</node>
-            <node x="" y="">cglib:cglib-nodep:jar:3.2.6</node>
-            <node x="" y="">org.springframework:spring-aop:jar:4.3.12.RELEASE</node>
-            <node x="" y="">mysql:mysql-connector-java:jar:5.1.45</node>
-            <node x="" y="">org.mybatis:mybatis:jar:3.2.3</node>
-            <node x="" y="">org.mybatis:mybatis-spring:jar:1.3.2</node>
-            <node x="" y="">org.mybatis.generator:mybatis-generator-core:jar:1.3.5</node>
-            <node x="" y="">com.fasterxml.jackson.core:jackson-core:jar:2.8.11</node>
-            <node x="" y="">com.fasterxml.jackson.core:jackson-annotations:jar:2.8.11</node>
-            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.8.11</node>
-            <node x="" y="">org.apache.commons:commons-lang3:jar:3.6</node>
-            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.7.12</node>
-            <node x="" y="">org.slf4j:jcl-over-slf4j:jar:1.7.25</node>
-            <node x="" y="">javax.servlet:javax.servlet-api:jar:3.0.1</node>
-            <node x="" y="">javax.servlet.jsp:jsp-api:jar:2.1</node>
-            <node x="" y="">taglibs:standard:jar:1.1.2</node>
-            <node x="" y="">commons-beanutils:commons-beanutils:jar:1.9.3</node>
-            <node x="" y="">commons-beanutils:commons-beanutils:jar:1.9.3/commons-collections:commons-collections:jar:3.2.2</node>
-            <node x="" y="">net.sf.json-lib:json-lib:jar:jdk15:2.4</node>
-            <node x="" y="">net.sf.json-lib:json-lib:jar:jdk15:2.4/net.sf.ezmorph:ezmorph:jar:1.0.6</node>
-            <node x="" y="">commons-dbcp:commons-dbcp:jar:1.2.2</node>
-            <node x="" y="">commons-dbcp:commons-dbcp:jar:1.2.2/commons-pool:commons-pool:jar:1.3</node>
-            <node x="" y="">com.alibaba:druid:jar:1.1.14</node>
-            <node x="" y="">org.apache.shiro:shiro-core:jar:1.2.3</node>
-            <node x="" y="">org.apache.shiro:shiro-web:jar:1.2.3</node>
-            <node x="" y="">org.apache.shiro:shiro-spring:jar:1.2.3</node>
-            <node x="" y="">org.apache.shiro:shiro-quartz:jar:1.2.3</node>
-            <node x="" y="">org.apache.shiro:shiro-quartz:jar:1.2.3/org.opensymphony.quartz:quartz:jar:1.6.1</node>
-            <node x="" y="">org.slf4j:slf4j-api:jar:1.7.21</node>
-            <node x="" y="">log4j:log4j:jar:1.2.17</node>
-            <node x="" y="">org.activiti:activiti-engine:jar:6.0.0</node>
-            <node x="" y="">org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-bpmn-converter:jar:6.0.0</node>
-            <node x="" y="">org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-bpmn-converter:jar:6.0.0/org.activiti:activiti-bpmn-model:jar:6.0.0</node>
-            <node x="" y="">org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-process-validation:jar:6.0.0</node>
-            <node x="" y="">org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-image-generator:jar:6.0.0</node>
-            <node x="" y="">org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-dmn-api:jar:6.0.0</node>
-            <node x="" y="">org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-dmn-api:jar:6.0.0/org.activiti:activiti-dmn-model:jar:6.0.0</node>
-            <node x="" y="">org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-form-model:jar:6.0.0</node>
-            <node x="" y="">org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-form-api:jar:6.0.0</node>
-            <node x="" y="">org.activiti:activiti-engine:jar:6.0.0/org.apache.commons:commons-email:jar:1.4</node>
-            <node x="" y="">org.activiti:activiti-engine:jar:6.0.0/org.apache.commons:commons-email:jar:1.4/com.sun.mail:javax.mail:jar:1.5.2</node>
-            <node x="" y="">org.activiti:activiti-engine:jar:6.0.0/de.odysseus.juel:juel-api:jar:2.2.7</node>
-            <node x="" y="">org.activiti:activiti-engine:jar:6.0.0/de.odysseus.juel:juel-impl:jar:2.2.7</node>
-            <node x="" y="">org.activiti:activiti-engine:jar:6.0.0/de.odysseus.juel:juel-spi:jar:2.2.7</node>
-            <node x="" y="">org.activiti:activiti-engine:jar:6.0.0/joda-time:joda-time:jar:2.6</node>
-            <node x="" y="">org.activiti:activiti-spring:jar:6.0.0</node>
-            <node x="" y="">org.activiti:activiti-spring:jar:6.0.0/org.springframework:spring-orm:jar:4.2.5.RELEASE</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.2724030316540348" x="572.0" y="961.8101472995089" />
-          <SelectedNodes />
-          <Categories />
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/config/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="49" column="63" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.3/shiro-core-1.2.3-sources.jar!/org/apache/shiro/authc/SimpleAuthenticationInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.3/shiro-core-1.2.3-sources.jar!/org/apache/shiro/crypto/hash/Md5Hash.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="51" column="44" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="44" />
-          <folding>
-            <element signature="e#1562#1563#0" expanded="true" />
-            <element signature="e#1613#1614#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61">
@@ -1027,21 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="276" selection-start-line="276" selection-end-line="276" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/config/applicationContext-shiro.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/shiro/FormAuthenFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
@@ -1050,11 +865,6 @@
             <element signature="imports" expanded="true" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1117" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.3/shiro-core-1.2.3-sources.jar!/org/apache/shiro/authc/AuthenticationInfo.java">
@@ -1075,13 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/config/mapper/SysPermissionMapperCustom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-869">
-          <caret line="137" column="65" selection-start-line="137" selection-start-column="65" selection-end-line="137" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -1113,13 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/config/mapper/SysPermissionCustomMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.3/mybatis-3.2.3-sources.jar!/org/apache/ibatis/builder/BaseBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -1138,13 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1320">
           <caret line="72" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/pojo/ActiveUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1169,13 +958,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/config/activiti-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="45" column="57" selection-start-line="45" selection-start-column="57" selection-end-line="45" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/mapper/BaoxiaoBillMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1183,80 +965,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/mapper/SysPermissionCustomMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/config/mapper/SysPermissionMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/mapper/SysPermissionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/mapper/SysPermissionMapperCustom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/mapper/SysRoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/mapper/SysRolePermissionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/mapper/SysUserRoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/config/mapper/EmployeeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="244" column="97" selection-start-line="244" selection-start-column="97" selection-end-line="244" selection-end-column="97" />
         </state>
       </provider>
     </entry>
@@ -1270,10 +978,246 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/mapper/SysUserRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/mapper/SysPermissionMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2760">
+          <caret line="92" column="20" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/mapper/SysRolePermissionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/mapper/SysRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/mapper/EmployeeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="242" column="36" lean-forward="true" selection-start-line="242" selection-start-column="36" selection-end-line="242" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/mapper/EmployeeMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+        <state relative-caret-position="141">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.3/mybatis-3.2.3-sources.jar!/org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/mapper/SysPermissionMapperCustom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="86" column="34" lean-forward="true" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/pojo/MenuTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/pojo/SysPermission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/yueqian/service/EmployeeServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="28" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="77" column="67" selection-start-line="77" selection-start-column="59" selection-end-line="77" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/service/impl/EmployeeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1322#1323#0" expanded="true" />
+            <element signature="e#1382#1383#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1567#1568#0" expanded="true" />
+            <element signature="e#1628#1629#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/service/WorkFlowService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/service/impl/BaoxiaoServcieImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/utils/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/activiti-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/service/BaoxiaoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/service/impl/WorkFlowServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="146" column="74" lean-forward="true" selection-start-line="146" selection-start-column="74" selection-end-line="146" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.45/mysql-connector-java-5.1.45-sources.jar!/com/mysql/jdbc/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1819">
+          <caret line="424" column="24" selection-start-line="424" selection-start-column="24" selection-end-line="424" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/pojo/ActiveUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/mapper/SysPermissionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/mapper/SysPermissionCustomMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/mapper/SysPermissionMapperCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/utils/ManagerTaskHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/applicationContext-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="491" column="12" lean-forward="true" selection-start-line="491" selection-start-column="12" selection-end-line="491" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/mapper/SysPermissionCustomMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1282,15 +1226,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/service/EmployeeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        <state relative-caret-position="240">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/service/impl/EmployeeServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/service/impl/SysServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="208">
+          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/service/SysService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="35" column="46" lean-forward="true" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1299,18 +1258,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yueqian/shiro/CustomRealm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="30" column="58" lean-forward="true" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/com/yueqian/service/EmployeeServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        <state relative-caret-position="120">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
